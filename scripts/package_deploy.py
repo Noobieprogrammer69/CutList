@@ -6,9 +6,11 @@ ROOT = Path(__file__).resolve().parents[1]
 ROOT_FILES = (
     "package.json", "package-lock.json", "next.config.ts", "tsconfig.json",
     "next-env.d.ts", "README.md", "MODEL-NOTICES.md", "DEPLOY-LIGHTNING.md",
-    ".env.hosted.example", ".gitignore",
+    ".env.example", ".env.hosted.example", ".gitignore", "cutlist",
 )
 SOURCE_TYPES = {
+    "docs": {".md"},
+    "benchmarks": {".json"},
     "app": {".ts", ".tsx", ".css"},
     "worker": {".py", ".txt", ".json"},
     "scripts": {".py", ".mjs"},
