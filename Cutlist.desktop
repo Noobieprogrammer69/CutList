@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Cutlist
+Comment=Find and edit moments from long recordings
+Exec="/home/jover/CutList/cutlist"
+Path=/home/jover/CutList
+Icon=/home/jover/CutList/public/cutlist.svg
+Terminal=false
+Categories=AudioVideo;Video;
+StartupNotify=true

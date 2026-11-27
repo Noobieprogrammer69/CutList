@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+CUTLIST_ROOT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+if ! command -v node >/dev/null 2>&1; then
+  command -v notify-send >/dev/null && notify-send 'Cutlist' 'Node.js is missing. Install Node.js 22.18+ and open Cutlist again.'
+  exit 1
+fi
+cd "$CUTLIST_ROOT"
+exec node scripts/desktop.mjs

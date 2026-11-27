@@ -1,0 +1,10 @@
+import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
+import path from "node:path";
+import os from "node:os";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const quote = value => '"' + value.replaceAll("%", "%%").replaceAll("\\", "\\\\").replaceAll('"', '\\"').replaceAll("$", "\\$").replaceAll("`", "\\`") + '"';
+const text = `[Desktop Entry]\nType=Application\nName=Cutlist\nComment=Find and edit moments from long recordings\nExec=${quote(path.join(root, "cutlist"))}\nPath=${root}\nIcon=${path.join(root, "public/cutlist.svg")}\nTerminal=false\nCategories=AudioVideo;Video;\nStartupNotify=true\n`;
+const target = process.argv.includes("--portable") ? path.join(root, "Cutlist.desktop") : path.join(process.env.XDG_DATA_HOME || path.join(os.homedir(), ".local/share"), "applications/cutlist.desktop");
+mkdirSync(path.dirname(target), { recursive: true }); writeFileSync(target, text); chmodSync(target, 0o755);
+console.log(`Launcher created: ${target}`);

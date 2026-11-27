@@ -1,0 +1,31 @@
+{
+  "cpu_threads_available": 12,
+  "recording": "bundled synthetic sample",
+  "note": "Sample timings and a synthetic long transcript test. These are not measured 15-hour media processing times or editorial accuracy.",
+  "audio_decode_seconds": 0.101,
+  "audio_features_seconds": 0.005,
+  "speech_first_pass": {
+    "processing_seconds": 12.26,
+    "peak_rss_mb": 1611.7,
+    "threads": 4,
+    "batch_size": 2,
+    "checkpoint_hits": 0,
+    "chunks": 9,
+    "recognized_words": 265
+  },
+  "speech_checkpoint_reuse": {
+    "processing_seconds": 0.01,
+    "peak_rss_mb": 41.1,
+    "threads": 4,
+    "batch_size": 2,
+    "checkpoint_hits": 9,
+    "chunks": 9,
+    "recognized_words": 265
+  },
+  "synthetic_15h_ranking": {
+    "seconds": 0.009,
+    "cues": 10800,
+    "events": 900,
+    "results": 900
+  }
+}

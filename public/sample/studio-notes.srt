@@ -1,0 +1,63 @@
+1
+00:00:01,000 --> 00:00:06,487
+Host: Welcome to Studio Notes. Today we're talking about the messy reality of freelance editing.
+
+2
+00:00:07,487 --> 00:00:10,812
+Host: What is the biggest mistake you made when you started editing?
+
+3
+00:00:11,412 --> 00:00:17,748
+Guest: I thought the secret was buying more plugins. But actually, my best project used none of them.
+
+4
+00:00:18,248 --> 00:00:24,312
+Guest: Because the story was already there. I just had to cut out everything that was getting in its way.
+
+5
+00:00:28,312 --> 00:00:33,789
+Host: That makes sense. Let's talk about the less glamorous part: working with clients.
+
+6
+00:00:34,789 --> 00:00:38,944
+Host: What happened the first time a client asked you to make the video pop?
+
+7
+00:00:39,544 --> 00:00:46,311
+Guest: I once spent an entire night adding transitions. Every cut had a different effect. I was so proud.
+
+8
+00:00:46,811 --> 00:00:52,311
+Guest: In the end, the client sent it back and said: could you make it a little less popcorn?
+
+9
+00:00:53,011 --> 00:00:57,919
+Host: Okay, that one got me. Sometimes the best transition is just a cut.
+
+10
+00:01:01,919 --> 00:01:06,810
+Host: People often talk about speed. How do you actually finish a difficult edit?
+
+11
+00:01:07,410 --> 00:01:13,940
+Guest: I never start with the timeline anymore. Instead, I write one sentence about what the viewer should feel.
+
+12
+00:01:14,440 --> 00:01:23,380
+Guest: For example, if the story is about taking a risk, every shot needs to help us feel that uncertainty. That's why quiet moments matter.
+
+13
+00:01:27,380 --> 00:01:30,987
+Host: Do you have a story about a project that almost went wrong?
+
+14
+00:01:31,587 --> 00:01:37,747
+Guest: Last year, my drive failed the night before delivery. I thought I had lost three weeks of work.
+
+15
+00:01:38,247 --> 00:01:48,382
+Guest: Then I realized the assistant had kept a backup on a tiny old drive. We finished the film on time. Ever since, backups are part of my creative process.
+
+16
+00:01:49,382 --> 00:01:54,152
+Host: That is a useful lesson to end on. Thanks for listening to Studio Notes.

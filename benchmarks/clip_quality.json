@@ -1,0 +1,12 @@
+{
+  "description": "Authored English regression cases, not a measured real-world accuracy claim. Add licensed recordings and independent editor labels before making quality claims.",
+  "cases": [
+    {"name": "quiet useful answer", "duration": 70, "maximum": 30, "cues": [[5,9,"What changed the way you handle difficult clients?"],[9,18,"I now ask for one clear goal before opening the timeline, because it stops us arguing about effects."],[45,49,"We stopped for tea after the session."]], "expected": [[5,18]]},
+    {"name": "setup before captioned laugh", "duration": 60, "maximum": 25, "cues": [[10,15,"A client asked me to make the film pop."],[15,20,"I sent them a bag of popcorn with the invoice."],[20,23,"[laughter]"]], "expected": [[10,23]]},
+    {"name": "story payoff", "duration": 90, "maximum": 35, "cues": [[30,36,"I once lost a project drive the night before delivery."],[36,42,"We searched the studio and every bag until morning."],[42,49,"In the end I learned that a backup matters more than a faster computer."]], "expected": [[30,49]]},
+    {"name": "greetings are not a useful exchange", "duration": 35, "maximum": 30, "cues": [[1,4,"How are you doing today?"],[4,10,"I am doing well and it is nice to be here."],[20,24,"We are sitting in the studio with some coffee."]], "expected": []},
+    {"name": "neutral transcript returns nothing", "duration": 50, "maximum": 30, "cues": [[2,9,"The notebook is on the desk next to the monitor."],[15,22,"We walked across the room and moved a chair."],[35,41,"The light was switched off after the session."]], "expected": []},
+    {"name": "quiet keyword context", "duration": 60, "maximum": 25, "keywords": ["backup"], "cues": [[10,14,"There is a habit I follow before delivery."],[14,21,"I make a second backup on a separate drive before sending the files."]], "expected": [[10,21]]},
+    {"name": "claim with its explanation", "duration": 75, "maximum": 30, "cues": [[35,41,"Everyone thinks better edits need more effects."],[41,49,"For example, removing a transition can make a difficult conversation feel more honest and clear."]], "expected": [[35,49]]}
+  ]
+}
